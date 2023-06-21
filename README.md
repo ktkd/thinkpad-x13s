@@ -1,3 +1,6 @@
+Second NVME for white list enabled Lenovo Thinkpad x13s.
+This laptop have white list only in second (wwan) m2 port.
+
 Main idea, we modify NVME pci id's to look like a white-list allowed device (i.e. modem/wifi/etc)
 
 First we should find white-listed VID/PID/SSVID/SSPID, for thinkpad x13s i just read a bios firmware and found this part
